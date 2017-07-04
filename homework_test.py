@@ -56,7 +56,7 @@ totalK = int(input("가지수 : "))
 moneyInfoList = []
 str_moneySize = []
 str_moneyCount = []
-
+a=5
 for i in range(0, totalK) :
 	moneyInfo = input("금액, 개수 : ")
 	moneyInfo = [int(i) for i in moneyInfo.split()]
